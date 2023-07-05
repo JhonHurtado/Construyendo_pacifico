@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titles">18sp</dimen>
+    <dimen name="subTitles">16sp</dimen>
+    <dimen name="textDescriptions">12sp</dimen>
+
+    <dimen name="marginGlobal">8dp</dimen>
+    <dimen name="marginStartGlobal">16dp</dimen>
+    <dimen name="marginTopGlobal">16dp</dimen>
+
+    <dimen name="widthButtons">25dp</dimen>
+    <dimen name="heightButtons">22dp</dimen>
+
+    <dimen name="widthButtonExit">35dp</dimen>
+    <dimen name="heightButtonExit">25dp</dimen>
+
+    <dimen name="cornerRadiusGlobalCard">10dp</dimen>
+
+    <dimen name="center">12sp</dimen>
+    <dimen name="factory">15sp</dimen>
+    <dimen name="titulo_1">25sp</dimen>
+    <dimen name="titulo_2">18sp</dimen>
+
+
+    <dimen name="sena_1">12sp</dimen>
+    <dimen name="sena_2">15sp</dimen>
+
+
+</resources>

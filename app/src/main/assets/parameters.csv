@@ -1,0 +1,23 @@
+1,1,Color aparente ,Unidades de Platino Cobalto (UPC),15,<=
+2,1,Olor y Sabor ,Aceptable o no aceptable ,Aceptable,=
+3,1,Turbiedad,Unidades Nefelometricas de turbiedad (UNT),2,<=
+4,2,Carbono Organico Total,COT,5,<=
+5,2,Nitritos,NO2-,0.1,<=
+6,2,Nitratos,NO3-,10,<=
+7,2,Floruros,F,1,<=
+8,3,Calcio,Ca,60,<=
+9,3,Alcalinidad Total,CaCO3,200,<=
+10,3,Cloruros,CL-,250,<=
+11,3,Aluminio,AL3+,0.2,<=
+12,3,Dureza Total,CaCO3,300,<=
+13,3,Hierro Total,Fe,0.3,<=
+14,3,Magnesio,Mg,36,<=
+15,3,Manganeso,Mn,0.1,<=
+16,3,Molibdeno,Mo,0.07,<=
+17,3,Sulfatos,SO42-,250,<=
+18,3,Zinc,Zn,3,<=
+19,3,Fosfatos,PO43-,0.5,<=
+20,4,Filtracion por membrana,0 UFC/100 cm3,0,=
+21,4,Enzima Sustrato,< de 1 microorganismo en 100 cm3,1,<
+22,4,Sustrato Definido,0 microorganismo en 100 cm3,0,=
+23,4,Presencia y Ausencia,Ausencia en 100 cm3 ,0,=

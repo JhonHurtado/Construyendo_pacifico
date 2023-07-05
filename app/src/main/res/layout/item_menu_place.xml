@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        android:backgroundTint="#EDF9FF"
+        app:cardCornerRadius="@dimen/cornerRadiusGlobalCard"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginStart="@dimen/marginStartGlobal"
+                android:layout_marginTop="@dimen/marginTopGlobal"
+                tools:text="@string/vereda"
+                android:textColor="@color/blueSena"
+                android:textSize="@dimen/subTitles"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+
+            <LinearLayout
+                android:id="@+id/options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTopGlobal"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                >
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/btnDeletePlace"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/deletezone"
+                    android:src="@drawable/ic_delete" />
+
+                <ImageView
+                    android:id="@+id/btnEditPlace"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/editzone"
+                    android:src="@drawable/ic_edit" />
+
+                <ImageView
+                    android:id="@+id/btnNextProcessPlace"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/nextactionzone"
+                    android:src="@drawable/ic_double_arrow" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

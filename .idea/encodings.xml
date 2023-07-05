@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/departments.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/features.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/grupos_etnicos.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/municipalities.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/parameters.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/populated_centers.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/sample_types.csv" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/users.csv" charset="ISO-8859-1" />
+  </component>
+</project>

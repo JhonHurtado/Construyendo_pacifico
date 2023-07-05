@@ -1,0 +1,347 @@
+1,1,Nombre del usuario
+2,3,Longitud
+3,4,Latitud
+4,5,Altitud
+5,6,Casa
+6,6,Habitación
+7,6,Apartamento
+8,6,Otro
+9,8,Si
+10,8,No
+11,9,Si
+12,9,No
+13,10,Si
+14,10,No
+15,11,Si
+16,11,No
+17,12,Si
+18,12,No
+19,13,Si
+20,13,No
+21,14,Si
+22,14,No
+23,15,Si
+24,15,No
+25,16,Si
+26,16,No
+27,17,Si
+28,17,No
+29,18,Si
+30,18,No
+31,19,Si
+32,19,No
+33,20,Si
+34,20,No
+35,21,Madera
+36,21,Concreto
+37,21,Cortinas
+38,21,Laminas
+39,21,Otro tipo de division
+40,22,Al interior de la vivienda
+41,22,Fuera de la vivienda
+42,23,Al interior de la vivienda
+43,23,Fuera de la vivienda
+44,24,Puertas
+45,24,Ventanas
+46,25,Barro
+47,25,Concreto
+48,25,Embaldosado
+49,25,Madera plástica
+50,25,Madera
+51,25,Bareque
+52,25,Cemento con mineral
+53,25,Otro
+54,26,Concreto. loza o planca
+55,26,Eternit
+56,26,Aluminio
+57,26,Palma
+58,26,Plástico
+59,26,Zinc
+60,26,PVC
+61,26,Paja
+62,26,Teja de cartón
+63,26,Otro
+64,27,Barro
+65,27,Guadua
+66,27,Bloque de cemento
+67,27,Bareque
+68,27,Calados
+69,27,plástico
+70,27,Tapia pisada
+71,27,Madera
+72,27,Ladrillo de cocido
+73,27,Concreto
+74,27,Adobe
+75,27,Zinc
+76,27,Cartón
+77,27,Otro
+78,28,Baldosa
+79,28,Perlita
+80,28,Madera
+81,28,Fachaleta (ladrillo. cerámica. marmol. otro)
+82,28,No tiene
+83,28,Estuco. plástico y pintura
+84,28,Graniplast
+85,28,Fibras
+86,28,cal
+87,28,Otro
+88,29,Alineada sobre una via terrestre
+89,29,Lineal simple y continua
+90,29,Perpendicular al rio o al mar
+91,29,Dispersa
+92,29,Alineada sobre un rio o el mar
+93,29,Lineal con doble hilera
+94,29,Nuclear
+95,30,Pavimentada en concreto
+96,30,Asfaltada
+97,30,Embalastrada
+98,30,Camino de herradura
+99,30,Carretera destapada / Trocha
+100,30,Placa huella (Huella vehicular en concreto)
+101,31,Número de tiempo (años)
+102,32,Propia
+103,32,Alquiler
+104,32,Familiar
+105,32,Hipotecada
+106,32,Cedida
+107,32,Condenada
+108,32,Usufructo
+109,32,Anticresis
+110,32,Otro
+111,33,Si
+112,33,No
+113,34,Escribe aquí tus apuntes
+114,35,Nombre del usuario
+115,37,Longitud
+116,38,Latitud
+117,39,Edad
+118,40,Ocupacion
+119,41,Femenino
+120,41,Masculino
+121,42,1
+122,42,2
+123,42,3
+124,42,4
+125,42,Más de 5
+126,43,1
+127,43,2
+128,43,3
+129,43,4
+130,43,5
+131,43,6
+132,43,Más de 7
+133,44,1
+134,44,2
+135,44,3
+136,44,4
+137,44,5
+138,44,6
+139,44,Más de 7
+140,45,1
+141,45,2
+142,45,3
+143,45,4
+144,45,5
+145,45,6
+146,45,Más de 7
+147,46,1
+148,46,2
+149,46,3
+150,46,4
+151,46,5
+152,46,6
+153,46,Más de 7
+154,47,1
+155,47,2
+156,47,3
+157,47,4
+158,47,5
+159,47,6
+160,47,Más de 7
+161,48,1
+162,48,2
+163,48,3
+164,48,4
+165,48,5
+166,49,1
+167,49,2
+168,49,3
+169,49,4
+170,49,5
+171,50,Agricultores
+172,50,Pescadores
+173,50,Comerciantes
+174,50,Actividades forestales
+175,50,Mineros
+176,50,Constructores
+177,50,Empleados
+178,50,Otros
+179,51,Herencia
+180,51,Fondos Propios
+181,51,Subsidios
+182,51,Préstamo Bancario
+183,51,Préstamo de Particular
+184,51,Asociaciones Populares de Vivienda
+185,51,Gestión de Consejo Comunitario
+186,51,Cooperativas
+187,51,Minga
+188,51,Otros
+189,52,Preescolar
+190,52,Básica Primaria
+191,52,Básica secundaria (bachillerato)
+192,52,Media técnica (bachillerato técnico)
+193,52,Técnico Profesional
+194,52,Tecnólogo
+195,52,Profesional
+196,52,Especializacion
+197,53,Tendido de ropa
+198,53,Cultivos de pan coger
+199,53,Otro tipo de plantas
+200,53,Cria de animales
+201,53,Cultivos de plantas medicinales
+202,53,No tienen uso exclusivo
+203,54,Letrina o pozo séptico
+204,54,Inodoro sin ducha
+205,54,Rio
+206,54,Inodoro con ducha
+207,54,Taza campesina
+208,54,No tiene
+209,54,Otro
+210,55,Inundaciones
+211,55,Dezlizamientos Desprendiminetos (tierra/rocas)
+212,55,Hundimientos
+213,55,Auditivo y Biologico
+214,55,Inseguridad en orden
+215,55,Humedad interior
+216,55,Otro
+217,56,Adquirida por Herencia
+218,56,Construida desde sus inicios
+219,56,Comprada
+220,56,Renovada en los ultimos 10 años
+221,58,A
+222,58,M
+223,58,D
+224,59,A
+225,59,M
+226,59,D
+227,60,A
+228,60,M
+229,60,D
+230,61,A
+231,61,M
+232,61,D
+233,62,A
+234,62,M
+235,62,D
+236,63,Expectativa del mejoramiento del hogar
+237,64,Si
+238,64,No
+239,65,Guayacan
+240,65,Genené
+241,65,Mangle
+242,65,Amargo
+243,65,Machere
+244,65,Guaité
+245,65,Chonta
+246,65,Palo mulato
+247,65,Tangare
+248,65,Aceite maria
+249,65,Comino
+250,65,Peine mono
+251,65,Jigua Negro
+252,65,Querre
+253,65,Chachajo
+254,65,Chachajillo
+255,65,Quinde
+256,65,Nalde
+257,65,Guabo
+258,65,Guadua
+259,65,Sajo
+260,65,No sabe
+261,65,Otro
+262,66,Ancho
+263,66,Largo
+264,66,Área
+265,67,Ancho
+266,67,Largo
+267,67,Área
+268,68,Si
+269,68,No
+270,69,Gallinas
+271,69,Conejos
+272,69,Patos
+273,69,Pavos
+274,69,Codornices
+275,69,Peces
+276,69,Otro
+277,70,¿Que tipo de plantas cultivan?
+278,71,Si
+279,71,No
+280,72,Auditiva
+281,72,Visual
+282,72,Sordoceguera
+283,72,Cognitiva
+284,72,Discapacidad fisica (neurologica.congenita.adquirida)
+285,72,Discapacidad intelectual
+286,72,Discapacidad psicosocial (mental)
+287,73,Si
+288,73,No
+289,74,Gas domiciliario
+290,74,Energía publica
+291,74,Agua potable
+292,74,Alcantarrillado
+293,74,Internet
+294,74,Ninguno de los anteriores
+295,75,Del acueducto publico
+296,75,Aguas Lluvias
+297,75,Rio
+298,75,Manantial
+299,75,Manantial
+300,75,Quebrada
+301,75,Carro Tanque
+302,75,Pozo (subterraneas)
+303,75,Por condensacion
+304,75,Otro
+305,76,Madera o leña
+306,76,Gas domiciliario
+307,76,Pipa de gas
+308,76,Carbon
+309,76,Energia electronica
+310,76,Petroleo
+311,76,Gasolina
+312,76,Otro
+313,77,La empresa publica los retira
+314,77,Se entierran
+315,77,Los retiran en carreta o carretilla
+316,77,Se queman
+317,77,Fabrican compostaje con ellos
+318,77,Los arrojan al rio. mar. quebrada o caño
+319,77,No se retiran
+320,77,Otro
+321,78,Radio
+322,78,Televisión publica
+323,78,Televisión satelital
+324,78,Internet
+325,78,Telefonia Celular
+326,78,Telefonia fija
+327,78,Ninguno de los anteriores
+328,78,Otro
+329,79,Malos olores
+330,79,Basura alrededor
+331,79,Abundancia de mosquitos
+332,79,Aguas estancadas
+333,79,Contaminacion de las fuentes hidricas
+334,79,Por vertimientos
+335,79,Ninguno de los anteriores
+336,79,Otro
+337,80,Red de alcantarillado
+338,80,Pozo septico
+339,80,Ninguno de los anteriores
+340,80,Otro
+341,81,Agua potable
+342,81,Recolección de desechos
+343,81,Calles. accessos y aceras
+344,81,Unidad de tratamiento de basuras UTB
+345,81,Unidad de aprovechamiento de residuos UAR
+346,81,Ninguno de los anteriores
+347,81,Otro

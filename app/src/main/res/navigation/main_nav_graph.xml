@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/zonesMenuFragment">
+
+    <fragment
+        android:id="@+id/zonesMenuFragment"
+        android:name="com.example.proyectopacifico.ui.zones.ZonesMenuFragment"
+        android:label="fragment_zones_menu"
+        tools:layout="@layout/fragment_zones_menu" >
+        <action
+            android:id="@+id/action_zonesMenuFragment_to_zonesFormCreateFragment"
+            app:destination="@id/zonesFormCreateFragment" />
+        <action
+            android:id="@+id/action_zonesMenuFragment_self"
+            app:destination="@id/zonesMenuFragment" />
+        <action
+            android:id="@+id/action_zonesMenuFragment_to_zonesFormUpdateFragment"
+            app:destination="@id/zonesFormUpdateFragment" />
+        <action
+            android:id="@+id/action_zonesMenuFragment_to_placesMenuFragmentFragment"
+            app:destination="@id/placesMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zonesFormCreateFragment"
+        android:name="com.example.proyectopacifico.ui.zones.ZonesFormCreateFragment"
+        android:label="fragment_zones_form_create"
+        tools:layout="@layout/fragment_zones_form_create" />
+    <fragment
+        android:id="@+id/zonesFormUpdateFragment"
+        android:name="com.example.proyectopacifico.ui.zones.ZonesFormUpdateFragment"
+        android:label="fragment_zones_form_update"
+        tools:layout="@layout/fragment_zones_form_update" >
+        <argument
+            android:name="population"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuModelsFragment"
+        android:name="com.example.proyectopacifico.ui.modules.MenuModelsFragment"
+        android:label="fragment_menu_models"
+        tools:layout="@layout/fragment_menu_models" >
+        <argument
+            android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+        <action
+            android:id="@+id/action_menuModelsFragment_to_analyzeWaterFragment"
+            app:destination="@id/analyzeWaterFragment" />
+        <action
+            android:id="@+id/action_menuModelsFragment_to_architectureMenuFragment"
+            app:destination="@id/architectureMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/analyzeWaterFragment"
+        android:name="com.example.proyectopacifico.ui.modules.water.AnalyzeWaterFragment"
+        android:label="fragment_analyze_water"
+        tools:layout="@layout/fragment_analyze_water" >
+        <argument android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/architectureMenuFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.ArchitectureMenuFragment"
+        android:label="fragment_architecture_menu"
+        tools:layout="@layout/fragment_architecture_menu" >
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_observationArchitectureFragment"
+            app:destination="@id/observationArchitectureFragment" />
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_characterizationArchitecturePart1Fragment"
+            app:destination="@id/characterizationArchitecturePart1Fragment" />
+        <argument
+            android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_observationDetailFragment"
+            app:destination="@id/observationDetailFragment" />
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_characterizationDetailFragment"
+            app:destination="@id/characterizationDetailFragment" />
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_observationUpdateFragment"
+            app:destination="@id/observationUpdateFragment" />
+        <action
+            android:id="@+id/action_architectureMenuFragment_to_characterizationUpdateFragment"
+            app:destination="@id/characterizationUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/observationArchitectureFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.observation.ObservationArchitectureFragment"
+        android:label="fragment_observation_architecture"
+        tools:layout="@layout/fragment_observation_architecture" >
+        <argument
+            android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterizationArchitecturePart1Fragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.characterization.CharacterizationArchitecturePart1Fragment"
+        android:label="fragment_characterization_architecture_part1"
+        tools:layout="@layout/fragment_characterization_architecture_part1" >
+        <argument
+            android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placesMenuFragment"
+        android:name="com.example.proyectopacifico.ui.places.PlacesMenuFragmentFragment"
+        android:label="fragment_places_menu_fragment"
+        tools:layout="@layout/fragment_places_menu_fragment" >
+        <argument
+            android:name="population"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+        <action
+            android:id="@+id/action_placesMenuFragmentFragment_to_placeCreateFragment"
+            app:destination="@id/placeCreateFragment" />
+        <action
+            android:id="@+id/action_placesMenuFragmentFragment_to_menuModelsFragment"
+            app:destination="@id/menuModelsFragment" />
+        <action
+            android:id="@+id/action_placesMenuFragmentFragment_self"
+            app:destination="@id/placesMenuFragment" />
+        <action
+            android:id="@+id/action_placesMenuFragment_to_placeUpdateFragment"
+            app:destination="@id/placeUpdateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placeCreateFragment"
+        android:name="com.example.proyectopacifico.ui.places.PlaceCreateFragment"
+        android:label="fragment_place_create"
+        tools:layout="@layout/fragment_place_create" >
+        <argument
+            android:name="population"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placeUpdateFragment"
+        android:name="com.example.proyectopacifico.ui.places.PlaceUpdateFragment"
+        android:label="fragment_place_update"
+        tools:layout="@layout/fragment_place_update" >
+        <argument
+            android:name="place"
+            app:argType="com.example.proyectopacifico.data.models.entities.relations.PlaceAndPopulationAndPopulatedCenterAndMunicipalityAndDepartment" />
+    </fragment>
+    <fragment
+        android:id="@+id/observationDetailFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.observation.ObservationDetailFragment"
+        android:label="fragment_observation_detail"
+        tools:layout="@layout/fragment_observation_detail" >
+        <argument
+            android:name="AnswersAndQuestions"
+            app:argType="com.example.proyectopacifico.data.models.entities.arquitecture.AnswersAndQuestions" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterizationDetailFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.characterization.CharacterizationDetailFragment"
+        android:label="fragment_characterization_detail"
+        tools:layout="@layout/fragment_characterization_detail" >
+        <argument
+            android:name="AnswersAndQuestions"
+            app:argType="com.example.proyectopacifico.data.models.entities.arquitecture.AnswersAndQuestions" />
+    </fragment>
+    <fragment
+        android:id="@+id/observationUpdateFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.observation.ObservationUpdateFragment"
+        android:label="fragment_observation_update"
+        tools:layout="@layout/fragment_observation_update" >
+        <argument
+            android:name="AnswersAndQuestions"
+            app:argType="com.example.proyectopacifico.data.models.entities.arquitecture.AnswersAndQuestions" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterizationUpdateFragment"
+        android:name="com.example.proyectopacifico.ui.modules.architecture.characterization.CharacterizationUpdateFragment"
+        android:label="fragment_characterization_update"
+        tools:layout="@layout/fragment_characterization_update" >
+        <argument
+            android:name="AnswersAndQuestions"
+            app:argType="com.example.proyectopacifico.data.models.entities.arquitecture.AnswersAndQuestions" />
+    </fragment>
+</navigation>
